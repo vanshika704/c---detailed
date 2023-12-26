@@ -1,18 +1,13 @@
 #include<iostream>
-using namespace std;
-int factor(int number1){
-int number1;int i;int factorial;
- for( i=2;i<number1;i++){
-int factorial=number1*i;
-}
-}
-int main(){int number1;int i;int factorial;
-    cout<<"enter number 1";
-    cin>>number1;
-    int ans=factor(number1);
+using namespace std ;
+int factorial(int number){
+    for(int i=2;i<=number;i++){
+       int factor= factor*i;
+    }
 
-
-   
-    cout<< factorial<<endl;
-    return 0;
 }
+int main(){int number=7;
+  int result= factorial(number);
+    
+
+cout << result << endl;}

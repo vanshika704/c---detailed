@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int a = 4;
     int b =6;
-    cout <<"a&b "<<(a&b)<<endl;// (and) dono 1 honge toh 1 aayega//...
+    cout <<"a&b "<<(a&b)<<endl;// (and) dono 1 honge toh 1 aayega//..
     cout<<"a|b "<<(a|b)<< endl;//(or)koi ek one hoga toh bhi one aayega
     cout<<"~a "<<(~a)<< endl;//(not) zero ko one me and one ko zero me badal deta h
     cout<<"a^b "<<(a^b)<< endl;// (xor) koi ek one hoga toh output one aayegi agr dono same h toh output 0

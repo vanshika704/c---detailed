@@ -1,13 +1,27 @@
 #include<iostream>
 using namespace std;
-int main(){int i,size;
-cout<<" enter number of elements of array";
-cin>> size;
- cout<< " enter the elements of array";
- int num[15];
- for ( i=0;i<=size; i++){
-    cin>> num[i];
- }
-return 0;
- 
+
+int sum(int num[], int size) {
+    int totalSum = 0; 
+    for (int i = 0; i < size; i++) {
+        totalSum = totalSum + num[i]; 
+    }
+    return totalSum;
+}
+
+int main() {
+    int i, size;
+    cout << "Enter the number of elements of the array: ";
+    cin >> size;
+
+    cout << "Enter the elements of the array: ";
+    int num[15]; 
+    for (i = 0; i < size; i++) {
+        cin >> num[i];
+    }
+
+    int result = sum(num, size);
+    cout << "Sum of array elements: " << result << endl;
+
+    return 0;
 }

@@ -1,4 +1,4 @@
-#include<iostream>
+//.#include<iostream>
 using namespace std;
    int getMin( int num[], int n){
     int mini = INT32_MAX;

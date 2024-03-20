@@ -14,7 +14,7 @@ using namespace std;
     for( int i = 0;i<=n;i++){
         maxi = max( maxi, num[i]);
     }
-    return maxi;
+    return maxi;//.
    }
 
 
